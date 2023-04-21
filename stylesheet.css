@@ -32,6 +32,8 @@ ul {
     background-color: pink;
     
     
+    
+    
 
 }
 
@@ -67,13 +69,14 @@ p {
 
 footer {
     border: 10px solid pink;
-    padding: 10px;
+    padding: 1px;
+    margin: 20px;
     font-size: 50px;
     color:darkviolet;
     font-family:'Lucida Sans';
     background-color: pink;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold
 }
 
 h2 {
@@ -107,4 +110,9 @@ h2 {
   .companies {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .header {
+    background-color: pink;
+    border: pink;
   }
