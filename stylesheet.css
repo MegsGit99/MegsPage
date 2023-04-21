@@ -1,1 +1,110 @@
+h1 {
+    border: 10px solid pink;
+    padding: 10px;
+    font-size: 50px;
+    color:darkviolet;
+    font-family:'Lucida Sans';
+    background-color: pink;
+    text-align: center;
+    
 
+
+}
+
+h3 {
+    color:rebeccapurple;
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    
+}
+
+ul {
+    font-family: 'Lucida Sans';
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+    list-style-position:inside;
+    border: 10px solid pink;
+    background-color: pink;
+    
+    
+
+}
+
+
+
+
+
+body {
+    
+    
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+p {
+    font-family: 'Lucida Sans';
+    color: rebeccapurple;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+
+}
+
+.music {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    border: 10px solid pink;
+    padding: 10px;
+    font-size: 50px;
+    color:darkviolet;
+    font-family:'Lucida Sans';
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color:rebeccapurple;
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: space-around;
+}
+
+{
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    justify-content: space-evenly;
+    float: left;
+    width: 478px;
+    padding: 10px;
+
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .companies {
+    display: flex;
+    justify-content: space-evenly;
+  }
